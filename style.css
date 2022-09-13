@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #d4373748;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d4373748;
+}
+.calc-body{
+    width: 250px;
+    background-color: #002df5;
+    backdrop-filter: blur (10px);
+    border-radius: 20px;
+    padding: 40px 30px;
+}
+.result-display{
+    color: white;
+    background-color: #829654e1;
+    height: 40px;
+    padding: 20px;
+    text-align: right;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.calc-display h3,
+.result-display h1{
+    margin: 0;
+    font-weight: 300;
+}
+.calc-display{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: #829654e1;
+    color: white;
+    height: 50px;
+    padding: 0 15px;
+    text-align: right;
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.btn-wrap{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.btn{
+    padding: 10px;
+    height: 55px;
+    width: 55px;
+    font-size: medium;
+    color: rgb(191, 191, 191);
+    background-color: #000000;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.1s ease 0s;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #3fc9f346;
+}
+.btn:active{
+    background-color: #000000;
+    box-shadow: none;
+}
+.btn-blue{
+    color: #2e31ed;
+}
+.btn-lg{
+    width: 120px;
+    background-color: #000000;
+    color: #f0f0f0;
+}
+.btn-lg:hover{
+    background-color: #b3b3b3;
+}
+.center {
+    text-align: center;
+    color: #000000;
+    position: absolute;
+    top:19%;
+}
+.centers {
+    text-align: center;
+    color: #000000;
+    position: absolute;
+    top:10%;
+    
+}
+.centerss {
+    color: #256415;
+    position: absolute;
+}
